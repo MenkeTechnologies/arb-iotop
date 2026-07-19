@@ -1,0 +1,5 @@
+# iotop — Per-process disk I/O from iotop, self-sourced from `iotop -b -n 1`.
+! iotop -b -n 1 every 10s
+list .iotop
+source .iotop { in }
+grid .iotop -row 0 -col 0
